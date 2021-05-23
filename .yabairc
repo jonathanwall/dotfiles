@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+yabai -m config window_shadow               float
+
+yabai -m config layout                      bsp
+yabai -m config top_padding                 2
+yabai -m config bottom_padding              2
+yabai -m config left_padding                2
+yabai -m config right_padding               2
+yabai -m config window_gap                  2
+yabai -m config window_topmost              off
+
+yabai -m rule --add app="App Store" manage=off
+yabai -m rule --add app="Dictionary" manage=off
+yabai -m rule --add app="Finder" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+yabai -m rule --add app="Messages" manage=off
+yabai -m rule --add app="Safari" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
+yabai -m rule --add app="Transmission" manage=off
