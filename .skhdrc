@@ -1,0 +1,3 @@
+hyper - 1  : yabai -m window --display 1; yabai -m display --focus 1
+hyper - 2  : yabai -m window --display 2; yabai -m display --focus 2
+hyper - 3  : yabai -m window --display 3; yabai -m display --focus 3
