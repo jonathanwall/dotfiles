@@ -18,3 +18,4 @@ yabai -m rule --add app="iTerm" manage=off
 yabai -m rule --add app="Messages" manage=off
 yabai -m rule --add app="Safari" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
 yabai -m rule --add app="Transmission" manage=off
+yabai -m rule --add app="^Stats$" manage=off
