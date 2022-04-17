@@ -13,9 +13,3 @@ rsync --recursive --verbose --exclude '.git' dotfiles/ $HOME/
 # remove temp directory
 rm -r dotfiles
 ```
-
-Setup Script
-------------
-```
-curl --remote-name https://raw.githubusercontent.com/jonathanwall/dotfiles/master/setup
-```
